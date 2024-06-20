@@ -12,11 +12,11 @@ class DoublyLinkedList:
         self.tail = new_node
         self.length = 1
 
-    def print_list():
+    def print_list(self):
         temp = self.head
         while temp.next is not None:
-            pritn(temp.value)
+            print(temp.value)
             temp = temp.next
 
-    def append():
+    def append(self):
         pass
