@@ -20,11 +20,16 @@ The Doubly LinkedList itself has a `head` and a `tail`, which point to the first
 
 Doubly LinkedLists support several operations, including but not limited to:
 
-- `append`: Add a new node to the end of the list.
-- `prepend`: Add a new node to the start of the list.
-- `insert`: Add a new node at a specific position in the list.
-- `remove`: Remove a node from the list.
-- `print_list`: Print the values of all nodes in the list.
+- `append()`: Add a new node to the end of the list.
+- `prepend()`: Add a new node to the start of the list.
+- `insert()`: Add a new node at a specific position in the list.
+- `remove()`: Remove a node from the list.
+- `print_list()`: Print the values of all nodes in the list.
+- `pop()`: Delete the last item in the list.
+- `pop_first()`: Delete the first item in the list.
+- `get()`: Get the item(node) in the list by index.
+- `set_value()`: Set value of the node by index.
+- `remove()`: Remove item in the list by index.
 
 ## Complexity
 
